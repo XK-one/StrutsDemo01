@@ -1,0 +1,14 @@
+package com.wyk.struts.help;
+
+public class UserNotFoundException extends RuntimeException {
+	
+	 public UserNotFoundException(){
+		 super();
+	 }
+	 
+	 public UserNotFoundException(String msg){
+		 super(msg);
+	 }
+	 
+
+}
